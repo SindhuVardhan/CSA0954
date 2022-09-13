@@ -1,19 +1,41 @@
 import java.util.*;
-public class Main {
- public static void main(String[] args) {
- Scanner input = new Scanner(System.in);
- int sumpos = 0,sumneg = 0,num=0;
- System.out.print("Number of values:");
- int p=input.nextInt();
- for(int i=1;i<=p;i++){ 
- System.out.print("enter the number:- ");
- num = input.nextInt();
- if(num>0)
- sumpos++;
- else if(num<0)
- sumneg++;
- }
- System.out.println("the no.of.negative values are "+sumneg);
- System.out.println("the no.of.positive values are "+sumpos);
- }
+class avg{
+    public static void main(String[] args)
+    {
+		double avg_p,avg_n,x=0,c=0;
+       int sum=0,sum1=0,n;
+       List<Integer>positive = new ArrayList<>();
+       List<Integer>negative = new ArrayList<>();
+       Scanner sc= new Scanner(System.in);
+	System.out.println("Enter -1 to exit...");
+	System.out.print("Enter the number : ");
+	n=sc.nextInt();
+    	while(n!=-1)
+	{	
+		if(n>0 && n<100)
+		{
+			positive.addAll(Arrays.asList(n));
+			x++;
+			sum=sum+n;
+		}
+		else if((n<0)&&(n>(-100)))
+		{
+			negative.addAll(Arrays.asList(n));
+			c++;
+                  sum1=sum1+n;
+		}
+		else
+		{
+			System.out.println("");
+		}
+		System.out.print("Enter the number : ");
+		n=sc.nextInt();
+	}
+	avg_p=sum/x;
+	avg_n=sum1/c;
+        System.out.println("positive: "+positive);
+	System.out.println("Negative: "+negative);
+        System.out.println("Average of positive numbers= "+avg_p);
+        System.out.println("Average of negative numbers= "+avg_n);
+    }
 }
