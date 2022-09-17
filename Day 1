@@ -1,0 +1,208 @@
+CSA0954                                 JAVA PROGGRAMMING FOR MAINFRAME APPLICATION                                10/09/2022
+
+
+
+1. Write a program to reverse a word using loop? (Not to use inbuilt functions)
+Sample Input: 
+String: TEMPLE
+Sample Output:
+Reverse String: ELPMET
+Test cases:
+1. SIGN UP
+2. AT-LEAST
+3. 1245
+4. !@#$%
+5. 145*999=144855
+
+
+2. Write a program to check the entered user name is valid or not. Get both the inputs 
+from the user.
+Sample Input:
+Enter the user name: Saveetha@789
+Reenter the user name: Saveetha@123
+ Sample Output:
+ User name is Invalid
+ 
+ 
+ 
+3. Write a program to find whether the person is eligible for vote or not. And if that 
+particular person is not eligible, then print how many years are left to be eligible.
+Sample Input:
+Enter your age: 7
+Sample output:
+You are allowed to vote after 11 years
+Test cases:
+1. 25
+2. Eighteen
+3. 12
+4. -18
+5. 34.5
+
+
+
+4. Write a program to print Right Triangle Star Pattern
+ Sample Input: n = 5
+Output: 
+ * 
+ * * 
+ * * * 
+ * * * * 
+ 
+ 
+ 
+5. Write a program for matrix addition?
+Sample Input:
+Mat1 = 1 2
+ 5 3
+Mat2 = 2 3
+ 4 1
+Sample Output:
+Mat Sum = 3 5
+ 7 4
+ 
+ 
+ 
+6. Write a program using function to calculate the simple interest. Suppose the customer 
+is a senior citizen. He is being offered 12 percent rate of interest; for all other 
+customers, the ROI is 10 percent.
+Sample Input:
+Enter the principal amount: 200000
+Enter the no of years: 3
+Is customer senior citizen (y/n): n
+Sample Output:
+Interest: 60000
+Test Cases:
+1. Principal: 2000 , Years: 0
+2. Principal: 20000 , Years: -2
+3. Principal: -2000 , Years: 2
+4. Principal: 2 , Years: 2000
+5. Principal: 0 , Years: 5
+
+
+
+7. Find the Mth maximum number and Nth minimum number in an array and then find 
+the sum of it and difference of it.
+Sample Input:
+Array of elements = {14, 16, 87, 36, 25, 89, 34}
+M = 1
+N = 3
+Sample Output:
+1
+stMaximum Number = 89
+3
+rdMinimum Number = 25
+Sum = 114
+Difference = 64
+Test cases:
+1. {16, 16, 16 16, 16}, M = 0, N = 1
+2. {0, 0, 0, 0}, M = 1, N = 2
+3. {-12, -78, -35, -42, -85}, M = 3 , N = 3
+4. {15, 19, 34, 56, 12}, M = 6 , N = 3
+5. {85, 45, 65, 75, 95}, M = 5 , N = 7 
+
+
+
+
+8. Write a program using choice to check
+Case 1: Given string is palindrome or not
+Case 2: Given number is palindrome or not
+Sample Input:
+Case = 1
+String = MADAM
+Sample Output:
+Palindrome
+Test cases:
+1. MONEY
+2. 5678765
+3. MALAY12321ALAM
+4. MALAYALAM
+5. 1234.4321
+
+
+
+9. Write a program to convert Decimal number equivalent to Binary number and octal 
+numbers?
+Sample Input:
+Decimal Number: 15
+Sample Output:
+Binary Number = 1111
+Octal = 17
+Test cases:
+1. 111
+2. 15.2
+3. 1010.011
+4. B12
+5. 1A.2
+
+
+
+10. In an organization they decide to give bonus to all the employees on New Year. A 5% 
+bonus on salary is given to the grade A workers and 10% bonus on salary to the grade 
+B workers. Write a program to enter the salary and grade of the employee. If the salary
+of the employee is less than $10,000 then the employee gets an extra 2% bonus on salary 
+Calculate the bonus that has to be given to the employee and print the salary that the 
+employee will get.
+Sample Input & Output:
+Enter the grade of the employee: B
+Enter the employee salary: 50000
+Salary=50000
+Bonus=5000.0
+Total to be paid: 55000.0
+Test cases:
+1. Enter the grade of the employee: A
+Enter the employee salary: 8000
+2. Enter the grade of the employee: C
+Enter the employee salary: 60000
+3. Enter the grade of the employee: B
+Enter the employee salary: 0
+4. Enter the grade of the employee: 38000
+Enter the employee salary: A
+5. Enter the grade of the employee: B
+Enter the employee salary: -8000
+
+
+
+
+11. Write a Java Program to Convert a Given Number of Days in Terms of Years, Weeks 
+& Days.
+Sample Input & Output:
+Enter the number of days: 756
+No. of years: 2
+No. of weeks: 3
+No. of days: 5
+Test cases:
+1. 38
+2. 3.6
+3. 0
+4. -365
+5. -45
+Given a date, return the corresponding day of the week for that date. The input is given as three 
+integers representing the day, month and year respectively. Return the answer as one of the 
+following values {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
+"Saturday"}.
+Example 1:
+Input: day = 31, month = 8, year = 2019
+Output: "Saturday"
+Example 2:
+Input: day = 18, month = 7, year = 1999
+Output: "Sunday"
+Example 3:
+Input: day = 15, month = 8, year = 1993
+Output: "Sunday"
+
+
+
+
+12. Write a program to find the number of student users in the college, get the total users, 
+staff users (15:1) details from the client. Note for every staff user (3:1) there is one Nonteaching staff user assigned by default. 
+Sample Input:
+Total Users: 856
+Staff Users: 126
+Sample Output:
+Student Users: 688
+Test Cases:
+1. Total User: 0
+2. Total User: -143
+3. Total User: 1026, Staff User: 1026
+4. Total User: 450, Staff User: 540
+5. Total User: 600, Staff User: 45
